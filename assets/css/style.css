@@ -1,9 +1,25 @@
-body{
-    background-color:blue;
+ *{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+ }
+ body{
+    background:
+    rgb(184, 226, 139)
+    top center/200px 300px
+    no-repeat;
+
 }
+/*header*/
 .header{
-    background-color: aliceblue;
+    width:400px;
+    width:100%;
+    background-color: rgb(43, 117, 183);
 }
-.main{background-color: bisque;
+/*main*/
+.main{
+
 }
-.foot{background-color: black;}
+/*footer*/
+.foot{background-color: rgb(214, 181, 181);
+min-height:50vh;}
